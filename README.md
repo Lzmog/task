@@ -4,6 +4,7 @@ NFQ task - RSS feed webpage, with a few scripts
 
 1. Composer update;
 2. Rename htaccess file into .htaccess;
+3. Create database with "task" name;
 
 
 Create PHP command line script that will fill DB tables with the data from XML RSS feed (e.g. http://www.nfq.lt/rss )
