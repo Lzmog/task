@@ -1,0 +1,22 @@
+{
+  "name": "lukas/task-nfq",
+  "authors": [
+    {
+      "name": "Lukas",
+      "email": "lukas.zmoginas@gmail.com"
+    }
+  ],
+  "description": "NFQ task",
+  "type": "project",
+  "require": {
+    "ext-pdo": "*",
+    "ext-simplexml": "*",
+    "ext-mbstring": "*",
+    "twbs/bootstrap": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Controller\\": "src/Controller"
+    }
+  }
+}
